@@ -202,50 +202,15 @@
     <button>Voir réparations</button>
   </div>
 
-  <!-- PRIX -->
-  <div class="iphone-content">
+<!-- relie html a java pour le bloque des prix -->
 
-    <div class="model" id="iphone8">
-      <h3>iPhone 8</h3>
-      <ul>
-        <li>Écran : 49 €</li>
-        <li>Batterie : 39 €</li>
-        <li>Caméra : 45 €</li>
-        <li>Connecteur de charge : 49 €</li>
-      </ul>
-    </div>
-
-    <div class="model" id="iphone11">
-      <h3>iPhone 11</h3>
-      <ul>
-        <li>Écran : 79 €</li>
-        <li>Batterie : 59 €</li>
-        <li>Caméra : 65 €</li>
-        <li>Connecteur de charge : 69 €</li>
-      </ul>
-    </div>
-
-    <div class="model" id="iphone13">
-      <h3>iPhone 13</h3>
-      <ul>
-        <li>Écran : 129 €</li>
-        <li>Batterie : 89 €</li>
-        <li>Caméra : 95 €</li>
-        <li>Connecteur de charge : 99 €</li>
-      </ul>
-    </div>
-
-    <div class="model" id="iphone15">
-      <h3>iPhone 15</h3>
-      <ul>
-        <li>Écran : 169 €</li>
-        <li>Batterie : 119 €</li>
-        <li>Caméra : 129 €</li>
-        <li>Connecteur de charge : 139 €</li>
-      </ul>
-    </div>
-
+<div id="modal-overlay" onclick="closeModal()">
+  <div id="modal-box" onclick="event.stopPropagation()">
+    <button id="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-content"></div>
   </div>
+</div>
+
 </section>
 
 <footer>
